@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 
-Vue.config.productionTip = false
+Vue.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
@@ -11,3 +11,6 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+import jquery from "jquery";
+Vue.prototype.$ = jquery;
