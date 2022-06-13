@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <!--Mapshow id="map-comp"/-->
+    <ShoppingTime/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Mapshow from './components/Mapshow'
+import MatchSankey from './components/MatchSankey.vue'
+import ShoppingTime from './components/ShoppingTime.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Mapshow,
+    MatchSankey,
+    ShoppingTime
+}
 }
 </script>
 
@@ -24,5 +28,18 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width:100%;
+  height: 100%;
+
 }
+#map-comp{
+    height:1150px;
+    width: 2100px;
+    border: black;
+    border-width: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+
 </style>

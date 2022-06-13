@@ -10,7 +10,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2"
+    "axios": "^0.27.2",
+    "d3": "^7.4.4",
+    "echarts": "^5.3.2",
+    "element-ui": "^2.15.6",
+    "ion-rangeslider": "^2.3.1",
+    "jquery": "^3.6.0",
+    "vue": "^2.5.2",
+    "vue-histogram-slider": "^0.3.8"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
